@@ -1,0 +1,688 @@
+
+.smallboxh3 {
+    font-size: 2em;
+    color: white;
+    margin-left: -20px;
+}
+.notifyline{
+    font-size:13px;
+   
+}
+
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+/*================div hover=================*/
+.hoverx {
+    background-color: #00add8;
+}
+
+    .hoverx:hover {
+        background-color: #00A3CB;
+    }
+
+.hoverx1 {
+    background-color: #009651;
+}
+
+    .hoverx1:hover {
+        background-color: #008D4D;
+    }
+
+.hoverx2 {
+    background-color: #DB8D10;
+}
+
+    .hoverx2:hover {
+        background-color: #CF850F;
+    }
+
+.hoverx3 {
+    background-color: #DD5F4C;
+}
+
+    .hoverx3:hover {
+        background-color: #D15948;
+    }
+
+.hoverx4 {
+    background-color: #DB8D10;
+}
+
+    .hoverx4:hover {
+        background-color: #CF850F;
+    }
+
+.hoverx5 {
+    background-color: #DD5F4C;
+}
+
+    .hoverx5:hover {
+        background-color: #D15948;
+    }
+
+.hoverx6 {
+    background-color: #33B8B8;
+}
+
+    .hoverx6:hover {
+        background-color: #31AEAE;
+    }
+
+.hoverx7 {
+    background-color: #009651;
+}
+
+    .hoverx7:hover {
+        background-color: #008D4D;
+    }
+
+/*============================================*/
+
+.iconeffect {
+    padding: 20px;
+    font-size: 45px;
+}
+
+    .iconeffect:hover {
+        animation-name: tansformAnimation;
+        animation-duration: .5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        -webkit-animation-name: tansformAnimation;
+        -webkit-animation-duration: .5s;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-timing-function: ease;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-name: tansformAnimation;
+        -moz-animation-duration: .5s;
+        -moz-animation-iteration-count: 1;
+        -moz-animation-timing-function: ease;
+        -moz-animation-fill-mode: forwards;
+    }
+
+@keyframes tansformAnimation {
+    from {
+        padding: 20px;
+        font-size: 45px;
+    }
+
+    to {
+        padding: 20px;
+        font-size: 55px;
+    }
+}
+
+@-webkit-keyframes tansformAnimation {
+    from {
+        padding: 20px;
+        font-size: 45px;
+    }
+
+    to {
+        padding: 20px;
+        font-size: 55px;
+    }
+}
+
+.iconef > .iconeffect :hover {
+    animation-name: tansformAnimation;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: tansformAnimation;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: tansformAnimation;
+    -moz-animation-duration: .5s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: forwards;
+}
+
+@keyframes tansformAnimation {
+    from {
+        padding: 20px;
+        font-size: 45px;
+    }
+
+    to {
+        padding: 20px;
+        font-size: 55px;
+    }
+}
+
+@-webkit-keyframes tansformAnimation {
+    from {
+        padding: 20px;
+        font-size: 45px;
+    }
+
+    to {
+        padding: 20px;
+        font-size: 55px;
+    }
+}
+
+#datatable {
+    display: none;
+}
+
+.verticle {
+    /* this is just for good looks */
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+}
+
+/* Landscape phones and portrait tablets */
+@media(max-width:767px) {
+    .iconeffect {
+    }
+
+    .noe {
+        position: relative !important;
+        margin-top: 39px;
+        float: right;
+    }
+
+    #chart_div {
+        overflow-x: auto;
+    }
+
+    .smallboxh3 {
+        font-size: 127%;
+    }
+
+    #tile1 {
+        margin-top: 12px !important;
+    }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .iconeffect {
+    }
+
+    #chart_div {
+        overflow-x: auto;
+    }
+
+    .noe {
+        position: relative !important;
+        margin-top: 39px;
+        float: right;
+    }
+
+    .smallboxh3 {
+        font-size: 127%;
+    }
+
+    #tile1 {
+        margin-top: 12px !important;
+    }
+}
+
+/*=============================================*/
+/*===================CSS ORAGNOGRAM===================*/
+@-webkit-keyframes push {
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+}
+
+@keyframes push {
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+}
+
+.push {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+    /*.push:hover,*/
+    .push:focus, .push:active {
+        -webkit-animation-name: push;
+        animation-name: push;
+        -webkit-animation-duration: 0.15s;
+        animation-duration: 0.15s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    }
+/* Grow Hover CSS */
+.grow {
+    display: inline-block;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+    .grow:hover
+    /*, .grow:focus, .grow:active */ {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+
+        .grow:hover a {
+            text-decoration: none;
+        }
+
+    .grow p {
+        color: #d6e020;
+    }
+/* END */
+.container {
+    padding: 0 5%;
+}
+
+.noah-family-header div p {
+    font-family: oswald;
+    text-align: center;
+    color: #d6e020;
+    text-transform: uppercase;
+    margin: 20px 0 50px;
+    font-size: 3em !important;
+}
+
+.noah-family-header .underline {
+    background: #aaacae;
+    border: 0;
+    height: 2px;
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-bottom: 80px;
+    display: inline-block;
+    display: -moz-inline-stack;
+}
+
+@-moz-document url-prefix() {
+    .noah-family-header div p {
+        margin: 20px 0 -5px;
+    }
+}
+
+.noah-family-tree-container {
+    text-align: center;
+    font-family: roboto;
+}
+
+.img-tree p {
+    margin-top: 5px;
+    color: #8e908f !important;
+    font-size: 16px;
+}
+
+.img-tree img {
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:768px) {
+    .img-tree img {
+        width: 55px;
+    }
+
+    .img-tree p {
+        font-size: 11px;
+    }
+
+    .noah-family-header .underline {
+        margin-bottom: 53px;
+    }
+}
+
+.cart-table .table tbody tr:last-child > td {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.tree-line-horizontal {
+    border: 1px solid #c8cac9;
+    width: 51%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tree-line-horizontal2 {
+    border: 1px solid #c8cac9;
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tree-line-horizontal2-2 {
+    border: 1px solid #c8cac9;
+    width: 26%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tree-line-vertical {
+    border: 1px solid #c8cac9;
+    width: 2px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.tree-row {
+    margin: 0 11% !important;
+}
+
+.family-tree-line {
+    margin-left: 8%;
+}
+
+#child-content, #grandchild-content1, #grandchild-content2, #grandchild-content3,#grandchild-content4,#grandchild-content5 {
+    display: none;
+}
+
+.content3-line {
+    margin-right: 8%;
+    float: right !important;
+}
+
+.placeholder {
+    border: 1px solid green;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px #888;
+    -moz-box-shadow: 0px 0px 10px #888;
+    box-shadow: 0px 0px 10px #888;
+}
+/*=====================================================*/
+
+/*============================DONUT CHART===================*/
+@import url(//fonts.googleapis.com/css?family=Oswald:400);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.chart {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.pieTip {
+    position: absolute;
+    float: left;
+    min-width: 30px;
+    max-width: 300px;
+    padding: 5px 18px 6px;
+    border-radius: 2px;
+    background: rgba(255,255,255,.97);
+    color: #444;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: .06em;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.5);
+    -webkit-transform: all .3s;
+    -moz-transform: all .3s;
+    -ms-transform: all .3s;
+    -o-transform: all .3s;
+    transform: all .3s;
+    pointer-events: none;
+}
+
+    .pieTip:after {
+        position: absolute;
+        left: 50%;
+        bottom: -6px;
+        content: "";
+        height: 0;
+        margin: 0 0 0 -6px;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 6px solid rgba(255,255,255,.95);
+        line-height: 0;
+    }
+
+.chart path {
+    cursor: pointer;
+}
+
+
+/*==========================HOLIDAY=========================*/
+/***Custom vertical inline menu***/
+.ver-inline-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    .ver-inline-menu li {
+        position: relative;
+        margin-bottom: 1px;
+    }
+
+        .ver-inline-menu li i {
+            width: 37px;
+            height: 37px;
+            display: inline-block;
+            color: #b9cbd5;
+            font-size: 15px;
+            padding: 12px 10px 10px 8px;
+            margin: 0 8px 0 0;
+            text-align: center;
+            background: #e0eaf0 !important;
+        }
+
+        .ver-inline-menu li a {
+            font-size: 14px;
+            font-weight: 300;
+            color: #557386;
+            display: block;
+            background: #f0f6fa;
+            border-left: solid 2px #c4d5df;
+        }
+
+        .ver-inline-menu li:hover a {
+            background: #e0eaf0;
+            text-decoration: none;
+        }
+
+        .ver-inline-menu li:hover i {
+            color: #fff;
+            background: #c4d5df !important;
+        }
+
+        .ver-inline-menu li.active a {
+            border-left: solid 2px #4B77BE;
+        }
+
+        .ver-inline-menu li.active i {
+            background: #4B77BE !important;
+        }
+
+        .ver-inline-menu li.active a, .ver-inline-menu li.active i {
+            color: #fff;
+            background: #4B77BE;
+            text-decoration: none;
+        }
+
+        .ver-inline-menu li.active a, .ver-inline-menu li:hover a {
+            font-size: 14px;
+        }
+
+        .ver-inline-menu li.active:after {
+            content: '';
+            display: inline-block;
+            border-bottom: 6px solid transparent;
+            border-top: 6px solid transparent;
+            border-left: 6px solid #4B77BE;
+            position: absolute;
+            top: 12px;
+            right: -5px;
+        }
+
+@media (max-width: 767px) {
+    .ver-inline-menu > li.active:after {
+        display: none;
+    }
+}
+/***
+Separated List
+***/
+.list-separated {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+    .list-separated > div {
+        border-right1: 1px solid #f5f5f5;
+    }
+
+        .list-separated > div:last-child {
+            border-right: 0;
+        }
+
+@media (max-width: 767px) {
+    .list-separated {
+        /* 767px */
+    }
+
+        .list-separated > div {
+            margin-bottom: 20px;
+        }
+}
+
+#pageloaddiv {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    /*opacity:0.3;*/
+    background: url('../Images/loading.gif') no-repeat center center;
+    display: none;
+}
+
+
+/*===========================================================PROCESS BAR=========================================================*/
+@keyframes anim {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+.bar {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 475px;
+    height: 30px;
+    overflow: hidden;
+    background-size: 100px 100px;
+    background-image: linear-gradient(-45deg, #33c9ff 25%, #00b2f2 25%, #00b2f2 50%, #33c9ff 50%, #33c9ff 75%, #00b2f2 75%);
+    animation: anim 1s linear infinite;
+}
+
+    .bar p {
+        width: 150px;
+        margin: 6px auto;
+        text-align: center;
+        color: white;
+    }
+/*======================================================================================================*/
+/*@keyframes anim {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+.bar1 {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 143px;
+    height: 13px;
+    overflow: hidden;
+    background-size: 100px 100px;
+    background-image: linear-gradient(-45deg, #56aa5d 25%, #558058 25%, #56aa5d 50%, #558058 50%, #56aa5d 75%, #558058 75%);
+    animation: anim 1s linear infinite;
+    margin-top: -7px;
+}
+
+    .bar1 p {
+        width: 150px;
+        margin: -2px auto;
+        text-align: center;
+        color: white;
+        font-size: smaller;
+    }*/
+
